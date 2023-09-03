@@ -1,0 +1,41 @@
+header a {
+    color: blue;
+}
+
+header ul:last-child li:first-child a,
+header ul:last-child li:last-child a {
+    color: gray;
+}
+
+section li:nth-child(1) h2,
+section li:nth-child(1) p,
+section li:nth-child(2) h2,
+section li:nth-child(2) p,
+section li:nth-child(3) h2,
+section li:nth-child(3) p,
+section li:nth-child(4) h2,
+section li:nth-child(4) p {
+    color: gray;
+}
+
+
+
+
+footer h3,
+footer p {
+    color: gray;
+}
+
+main section:nth-child(1) h1,
+main section:nth-child(1) button,
+main section:nth-child(1) p {
+    color: gray;
+}
+
+main section:nth-child(1) button {
+    background-color: blue;
+    
+   
+color: white;
+}
+
